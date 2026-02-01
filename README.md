@@ -7,6 +7,7 @@
 一款 macOS 语音转文字工具，让你通过说话代替打字，效率提升 3 倍。
 
 [![Download](https://img.shields.io/badge/Download-macOS-black?style=for-the-badge&logo=apple)](https://inhai-wiki.oss-cn-hangzhou.aliyuncs.com/ummm/Ummm.dmg)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=for-the-badge&logo=github)](https://github.com/inhai-wiki/ummm-landing)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![Powered by](https://img.shields.io/badge/Powered%20by-Alibaba%20Cloud-orange?style=for-the-badge)](https://bailian.console.aliyun.com)
 
@@ -199,6 +200,7 @@ npx serve .
 
 | 资源 | 链接 |
 |------|------|
+| 🐙 GitHub 仓库 | [ummm-landing](https://github.com/inhai-wiki/ummm-landing) |
 | 📦 下载安装包 | [Ummm.dmg](https://inhai-wiki.oss-cn-hangzhou.aliyuncs.com/ummm/Ummm.dmg) |
 | 🔑 获取 API Key | [阿里云百炼](https://bailian.console.aliyun.com/cn-beijing/?source_channel=%22ummm%22?tab=app#/api-key) |
 | 🎯 模型微调 | [语音模型体验中心](https://bailian.console.aliyun.com/cn-beijing/?source_channel=%22ummm%22/?tab=model#/efm/model_experience_center/voice) |
