@@ -53,7 +53,18 @@ const translations = {
         'cta.macos': 'macOS 12.0 Monterey or later',
         'cta.chip': 'Apple Silicon (M1/M2/M3) & Intel',
         'footer.contact': 'Contact',
-        'footer.bailian': 'Alibaba Cloud Bailian'
+        'footer.bailian': 'Alibaba Cloud Bailian',
+        'filler.title': 'Removes Filler',
+        'filler.desc1': 'Automatically removes filler words like "um," "uh," and "you know,"',
+        'filler.desc2': 'making your transcriptions clear and professional.',
+        'filler.badge': 'Removes filler',
+        'hotwords.title': 'Domain Hotwords',
+        'hotwords.desc1': 'Add your unique terminology to improve recognition accuracy.',
+        'hotwords.desc2': 'Powered by Alibaba Cloud FunASR, fine-tune for your domain.',
+        'hotwords.your': 'Your Hotwords',
+        'hotwords.link': 'Get your model on Bailian →',
+        'platforms.title': 'Works on All Apps',
+        'platforms.subtitle': 'Seamless AI voice dictation in every application on your Mac.'
     },
     zh: {
         'nav.features': '功能',
@@ -107,8 +118,19 @@ const translations = {
         'cta.size': '免费',
         'cta.macos': 'macOS 12.0 Monterey 或更高版本',
         'cta.chip': 'Apple Silicon (M1/M2/M3) 和 Intel 芯片',
-        'footer.contact': '联系我们',
-        'footer.bailian': '阿里云百炼'
+       'footer.contact': '联系我们',
+        'footer.bailian': '阿里云百炼',
+        'filler.title': '语气词过滤',
+        'filler.desc1': '自动去除"嗯"、"那个"、"就是"等语气词，',
+        'filler.desc2': '让你的转写内容更加清晰专业。',
+        'filler.badge': '过滤语气词',
+        'hotwords.title': '领域热词',
+        'hotwords.desc1': '添加你的专业术语，提升识别准确率。',
+        'hotwords.desc2': '基于阿里云 FunASR，支持领域模型微调。',
+        'hotwords.your': '你的热词',
+        'hotwords.link': '前往百炼获取模型 →',
+        'platforms.title': '适用所有应用',
+        'platforms.subtitle': '在 Mac 上的任何应用中使用 AI 语音输入。'
     }
 };
 
