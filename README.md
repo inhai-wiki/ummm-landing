@@ -1,8 +1,38 @@
 # Ummm Landing Page
 
+**GitHub**: https://github.com/inhai-wiki/ummm-landing
+
+---
+
+## 项目介绍
+
 Ummm 是一款 macOS 语音转文字工具，让你通过说话代替打字，效率提升 3 倍。
 
-**GitHub**: https://github.com/inhai-wiki/ummm-landing
+### 背景
+
+打字是一件繁琐的事。无论你是写邮件、做笔记还是写代码注释，大量时间都花在了键盘上。而人类说话的速度远超打字，平均说话速度是 150 字/分钟，而打字只有 40-50 字/分钟。
+
+### 解决方案
+
+Ummm 让语音输入变得简单自然：
+- 按住 fn 键说话，松开即输入
+- 文字自动出现在光标位置，无缝融入任何应用
+- 支持本地识别（隐私优先）和阿里云 FunASR 云端识别（精准优先）
+
+### 核心能力
+
+| 能力 | 说明 |
+|------|------|
+| 实时转写 | 边说边转，即时看到结果 |
+| 语气词过滤 | 自动去除“嗯”“那个”“就是”等语气词 |
+| 领域热词 | 支持添加专业术语，提升识别准确率 |
+| 中文优化 | 针对中文语音深度优化 |
+
+### 技术支持
+
+本项目集成阿里云百炼平台的 FunASR 语音识别模型，支持基于领域热词的模型微调能力。如需获取或微调 ASR 模型，请访问：
+
+https://bailian.console.aliyun.com/cn-beijing/?source_channel=%22ummm%22/?tab=model#/efm/model_experience_center/voice
 
 ---
 
