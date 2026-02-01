@@ -191,6 +191,7 @@ npx serve .
 
 | 资源 | 链接 |
 |------|------|
+| 源码仓库 | https://github.com/inhai-wiki/ummm |
 | GitHub 仓库 | https://github.com/inhai-wiki/ummm-landing |
 | 下载安装包 | https://inhai-wiki.oss-cn-hangzhou.aliyuncs.com/ummm/Ummm.dmg |
 | 获取 API Key | https://bailian.console.aliyun.com/cn-beijing/?source_channel=%22ummm%22?tab=app#/api-key |
