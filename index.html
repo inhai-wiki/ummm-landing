@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ummm - Speak, don't type</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-pill">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <span>Ummm</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features" data-i18n="nav.features">Features</a>
+                <a href="#how" data-i18n="nav.how">How to use</a>
+                <button class="lang-switch" id="langSwitch">CN</button>
+                <a href="#download" class="btn-download" data-i18n="nav.download">Download for macOS</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 data-i18n="hero.title">Speak, don't type</h1>
+        <p class="hero-desc">
+            <span data-i18n="hero.desc1">Hold fn and speak naturally. Ummm converts your voice to text in real-time</span><br>
+            <span data-i18n="hero.desc2">and types it at your cursor. 3x faster than typing.</span>
+        </p>
+        <a href="#download" class="btn-primary" data-i18n="hero.cta">Download for macOS</a>
+        
+        <!-- Demo Card -->
+        <div class="demo-wrapper">
+            <div class="demo-card">
+                <div class="demo-header">
+                    <div class="waveform">
+                        <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                    <div class="demo-status">
+                        <span class="status-dot"></span>
+                        <span data-i18n="demo.recording">Recording...</span>
+                    </div>
+                </div>
+                <div class="demo-text">
+                    <span class="typed-text" data-i18n="demo.sample">Hello, this is text from voice input, no typing needed</span>
+                    <span class="cursor"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature 1 -->
+    <section class="feature-section light-purple">
+        <div class="feature-content">
+            <h2 data-i18n="feature1.title">Hold to Record</h2>
+            <p>
+                <span data-i18n="feature1.desc1">Hold fn to speak, release to stop and input.</span><br>
+                <span data-i18n="feature1.desc2">No start button, no stop button. Everything is instant.</span>
+            </p>
+        </div>
+        <div class="feature-visual">
+            <div class="key-demo">
+                <div class="key-cap">fn</div>
+                <div class="key-hint" data-i18n="feature1.hint">Hold to speak</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature 2 -->
+    <section class="feature-section light-blue">
+        <div class="feature-visual">
+            <div class="cursor-demo">
+                <div class="fake-input">
+                    <span class="prefix" data-i18n="feature2.prefix">To:</span>
+                    <span class="input-cursor"></span>
+                </div>
+                <div class="arrow-down">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M19 12l-7 7-7-7"/></svg>
+                </div>
+                <div class="fake-input filled">
+                    <span class="prefix" data-i18n="feature2.prefix">To:</span>
+                    <span class="typed" data-i18n="feature2.typed">john@email.com</span>
+                </div>
+            </div>
+        </div>
+        <div class="feature-content">
+            <h2 data-i18n="feature2.title">Type Where You Click</h2>
+            <p>
+                <span data-i18n="feature2.desc1">Whether you're writing emails, editing documents, or chatting,</span><br>
+                <span data-i18n="feature2.desc2">text is automatically inserted at your cursor position.</span>
+            </p>
+        </div>
+    </section>
+
+    <!-- Speed Comparison -->
+    <section class="speed-section">
+        <div class="speed-intro">
+            <p><span data-i18n="speed.intro1">For years, we've relied on keyboards. But that era is ending.</span><br>
+            <span data-i18n="speed.intro2">Speak naturally, watch your voice become text.</span></p>
+        </div>
+        <div class="speed-comparison">
+            <div class="speed-item">
+                <div class="speed-number">0</div>
+                <div class="speed-meta">
+                    <span class="speed-unit" data-i18n="speed.unit">wpm</span>
+                    <span class="speed-label" data-i18n="speed.keyboard">Keyboard</span>
+                </div>
+            </div>
+            <div class="speed-vs">vs</div>
+            <div class="speed-item highlight">
+                <div class="speed-number">0</div>
+                <div class="speed-meta">
+                    <span class="speed-unit" data-i18n="speed.unit">wpm</span>
+                    <span class="speed-label">Ummm</span>
+                </div>
+                <div class="speed-badge" data-i18n="speed.badge">3x faster</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote -->
+    <section class="quote-section">
+        <div class="quote-mark left">
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor"><path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/></svg>
+        </div>
+        <h2 data-i18n="quote.text">This feels like magic.</h2>
+        <div class="quote-mark right">
+            <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor"><path d="M18 7h-3l-2 4v6h6v-6h-3zM10 7H7L5 11v6h6v-6H8z"/></svg>
+        </div>
+    </section>
+
+    <!-- Features Grid -->
+    <section id="features" class="features-grid-section">
+        <h2 data-i18n="features.title">Why Ummm</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                </div>
+                <h3 data-i18n="features.realtime.title">Real-time</h3>
+                <p data-i18n="features.realtime.desc">Transcribe as you speak, see results instantly</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+                </div>
+                <h3 data-i18n="features.privacy.title">Privacy First</h3>
+                <p data-i18n="features.privacy.desc">Local recognition by default, data stays on your Mac</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                </div>
+                <h3 data-i18n="features.easy.title">Zero Learning Curve</h3>
+                <p data-i18n="features.easy.desc">Hold fn, speak, release. That's it.</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 109 20h9a5 5 0 000-10z"/></svg>
+                </div>
+                <h3 data-i18n="features.cloud.title">Cloud Optional</h3>
+                <p data-i18n="features.cloud.desc">Add API Key for more accurate cloud recognition</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01M8 12h8M6 16h12"/></svg>
+                </div>
+                <h3 data-i18n="features.hotkey.title">Custom Hotkey</h3>
+                <p data-i18n="features.hotkey.desc">Don't like fn? Change it to any key combo</p>
+            </div>
+            <div class="feature-item">
+                <div class="feature-icon">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                </div>
+                <h3 data-i18n="features.chinese.title">Chinese Optimized</h3>
+                <p data-i18n="features.chinese.desc">Deeply optimized for Chinese speech recognition</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how" class="how-section">
+        <h2 data-i18n="how.title">Get Started</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-num">1</div>
+                <h3 data-i18n="how.step1.title">Download</h3>
+                <p data-i18n="how.step1.desc">Download DMG, drag to Applications</p>
+            </div>
+            <div class="step-arrow">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <h3 data-i18n="how.step2.title">Grant Access</h3>
+                <p data-i18n="how.step2.desc">Allow microphone and accessibility</p>
+            </div>
+            <div class="step-arrow">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <h3 data-i18n="how.step3.title">Hold & Speak</h3>
+                <p data-i18n="how.step3.desc">fn + voice = text</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="download" class="cta-section">
+        <h2 data-i18n="cta.title">Ready?</h2>
+        <p data-i18n="cta.subtitle">Free download, try it now</p>
+        <a href="Ummm.dmg" class="btn-primary large" download>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+            </svg>
+            <span data-i18n="cta.button">Download for macOS</span>
+        </a>
+        <div class="cta-meta">
+            <span data-i18n="cta.version">Version 1.0</span> · 
+            <span data-i18n="cta.size">Free</span>
+        </div>
+        <div class="system-requirements">
+            <div class="requirement-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+                <span data-i18n="cta.macos">macOS 12.0 Monterey or later</span>
+            </div>
+            <div class="requirement-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                <span data-i18n="cta.chip">Apple Silicon (M1/M2/M3) & Intel</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <div class="logo-icon dark">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <span>Ummm</span>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="#">GitHub</a>
+                <a href="https://inhai.wiki" target="_blank" rel="noopener" data-i18n="footer.contact">Contact</a>
+            </div>
+        </div>
+        <div class="footer-powered">
+            Powered by 
+            <a href="https://qoder.ai" target="_blank" rel="noopener">Qoder.ai</a>
+             & 
+            <a href="https://bailian.console.aliyun.com/cn-beijing/?source_channel=ummm#/home" target="_blank" rel="noopener" data-i18n="footer.bailian">Alibaba Cloud Bailian</a>
+        </div>
+        <div class="footer-bottom">
+            Designed by <a href="https://inhai.wiki" target="_blank" rel="noopener" class="footer-author">inhai</a>. All rights reserved. © 2025 Ummm
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
