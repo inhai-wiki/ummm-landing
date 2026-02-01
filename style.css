@@ -1000,12 +1000,49 @@ body {
 /* Responsive */
 @media (max-width: 768px) {
     .nav-pill {
-        padding: 8px 8px 8px 16px;
-        gap: 16px;
+        padding: 8px 8px 8px 12px;
+        gap: 8px;
+    }
+    
+    .logo span {
+        display: none;
+    }
+    
+    .nav-links {
+        gap: 8px;
     }
     
     .nav-links a:not(.btn-download) {
         display: none;
+    }
+    
+    .btn-download {
+        padding: 8px 14px !important;
+        font-size: 13px !important;
+        white-space: nowrap;
+    }
+    
+    .lang-switch {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+    
+    .hero {
+        padding: 100px 20px 40px;
+    }
+    
+    .hero h1 {
+        font-size: 42px;
+    }
+    
+    .hero-desc {
+        font-size: 16px;
+    }
+    
+    .demo-wrapper {
+        margin-top: 40px;
+        padding: 20px;
+        border-radius: 20px;
     }
     
     .feature-section {
@@ -1013,10 +1050,25 @@ body {
         padding: 60px 24px;
         gap: 40px;
         margin: 20px;
+        border-radius: 24px;
+    }
+    
+    .feature-content h2 {
+        font-size: 28px;
     }
     
     .light-blue {
         flex-direction: column-reverse;
+    }
+    
+    .light-gray {
+        flex-direction: column;
+    }
+    
+    .speed-section {
+        margin: 20px;
+        border-radius: 24px;
+        padding: 60px 24px;
     }
     
     .speed-comparison {
@@ -1052,32 +1104,68 @@ body {
         padding: 80px 24px;
     }
     
+    .quote-section h2 {
+        font-size: 28px;
+    }
+    
     .filler-demo {
         max-width: 100%;
     }
     
-    .hotwords-demo {
-        width: 100%;
-        max-width: 300px;
+    .filler-card {
+        padding: 14px 16px;
     }
     
-    .platforms-section h2 {
-        font-size: 32px;
+    .filler-text {
+        font-size: 14px;
+    }
+    
+    .hotwords-demo {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .hotword-item {
+        padding: 12px 16px;
+        font-size: 14px;
     }
     
     .platforms-section {
         margin: 20px;
-        padding: 60px 24px 80px;
+        padding: 60px 20px 80px;
         border-radius: 24px;
     }
     
+    .platforms-section h2 {
+        font-size: 28px;
+    }
+    
+    .platforms-section > p {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    
     .app-icon {
-        width: 44px;
-        height: 44px;
+        width: 40px;
+        height: 40px;
         border-radius: 10px;
     }
     
     .app-icons-row {
-        gap: 10px;
+        gap: 8px;
+    }
+    
+    .features-grid-section h2,
+    .how-section h2 {
+        font-size: 28px;
+    }
+    
+    .cta-section h2 {
+        font-size: 32px;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
     }
 }
