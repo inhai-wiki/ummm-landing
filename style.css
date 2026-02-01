@@ -630,14 +630,20 @@ body {
     -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
+.app-icons-track {
+    width: 100%;
+    overflow: hidden;
+}
+
 .app-icons-row {
     display: flex;
     gap: 16px;
-    animation: scrollIcons 30s linear infinite;
+    width: max-content;
+    animation: scrollIcons 25s linear infinite;
 }
 
-.app-icons-row:nth-child(2) {
-    animation-direction: reverse;
+.app-icons-track.reverse .app-icons-row {
+    animation: scrollIconsReverse 25s linear infinite;
 }
 
 @keyframes scrollIcons {
@@ -645,22 +651,21 @@ body {
     100% { transform: translateX(-50%); }
 }
 
+@keyframes scrollIconsReverse {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+}
+
 .app-icon {
     width: 56px;
     height: 56px;
     flex-shrink: 0;
     border-radius: 12px;
-    overflow: hidden;
     transition: transform 0.3s;
 }
 
 .app-icon:hover {
     transform: scale(1.1);
-}
-
-.app-icon svg {
-    width: 100%;
-    height: 100%;
 }
 
 /* Speed Section */
@@ -1044,11 +1049,7 @@ body {
     .quote-section {
         padding: 80px 24px;
     }
-}
-
-
-/* Additional responsive styles for new sections */
-@media (max-width: 768px) {
+    
     .filler-demo {
         max-width: 100%;
     }
